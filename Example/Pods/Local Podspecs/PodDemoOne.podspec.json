@@ -1,0 +1,34 @@
+{
+  "name": "PodDemoOne",
+  "version": "0.1.0",
+  "summary": "PodDemoOne",
+  "description": "one test",
+  "homepage": "https://github.com/skytosky/PodDemoOne.git",
+  "license": "MIT",
+  "authors": {
+    "467504109@qq.com": "467504109@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/skytosky/PodDemoOne.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PodDemoOne": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
